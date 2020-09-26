@@ -6,8 +6,8 @@ RUN apt-get upgrade -y
 RUN apt-get install imagemagick -y
 RUN apt-get install wkhtmltopdf -y
 
- pip install uuid
- pip install requests
- pip install datetime
- pip install imgkit
- pip install glob
+RUN pip install uuid
+RUN pip install requests
+RUN pip install datetime
+RUN pip install imgkit
+RUN pip install glob
