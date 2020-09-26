@@ -10,4 +10,3 @@ RUN pip install uuid
 RUN pip install requests
 RUN pip install datetime
 RUN pip install imgkit
-RUN pip install glob
