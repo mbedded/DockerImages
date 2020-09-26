@@ -1,7 +1,10 @@
 FROM python:3
 
-RUN apt-get install imagemagick
-RUN apt-get install wkhtmltopdf
+RUN apt-get update -y
+RUN apt-get upgrade -y
+
+RUN apt-get install imagemagick -y
+RUN apt-get install wkhtmltopdf -y
 
 RUN pip install sys
 RUN pip install json
